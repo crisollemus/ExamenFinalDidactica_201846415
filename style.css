@@ -1,0 +1,105 @@
+
+.centrar_texto{
+    text-align: center;
+}
+.color_aqua{
+    background-color: rgb(0, 0, 255);
+    color: blue;
+}
+.tbl_datos{
+  width: 500px;
+  margin: auto;
+}
+.tbl_datos td:first-child{
+  width: 150px;
+}
+.tbl_frase{
+  width: 200px;
+  margin-right:40px ;
+  text-align: justify;
+ 
+}
+.tbl_frase_color {
+  text-align: center;
+  background-color: blue;
+  color:azure;
+
+}
+.columnas{
+  display: flex;
+  justify-content: center;
+}
+.columna1{
+  width: 100px;
+}
+.logo_usac{
+  width: 150px;
+  height: 150px;
+  margin-inline: 45%;
+}
+
+.tabla_datos{
+  width: 500px;
+  margin: auto;
+}
+
+
+p{
+    text-align: right;
+}
+
+table{
+    
+    border-collapse: collapse;
+}
+tr,td{
+    border: 1px rgb(86, 109, 202) solid;
+    color: antiquewhite;
+}
+
+  body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    color: #333;
+}
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+.task-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-item input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.task-item button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.completed-task {
+    text-decoration: line-through;
+}
+
+.important-task {
+  border: 1px solid red;
+  background-color: #ffaaaa;
+}
